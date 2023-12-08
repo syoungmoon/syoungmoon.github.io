@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tooltip.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon.ico" href="favicon.ico?v=5"  />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<title>Suyoung Moon | Academic Website</title>
+</head>
+
+<body>
+    <div id="header-bar">
+    </div>
+    <div id="div-main">
+    <table id="table-main">
+        <tbody>
+            <!-- BIO -->
+            <tr id="row-bio">
+            </tr>
+
+            <tr class="row-breaker"></tr>
+
+            <!-- PUBLICATIONS -->
+            <tr id="row-publication">
+            </tr>
+
+            <tr class="row-breaker"></tr>
+
+            <!-- TEACHING -->
+            <tr id="row-teaching">
+            </tr>
+            
+            <tr class="row-breaker"></tr>
+
+            <!-- DOC -->
+            <tr id="row-doc">
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </main>
+
+    <script>
+        $(function(){
+            $("#row-bio").load("bio.html");
+            $("#row-publication").load("publication.html");
+            $("#row-teaching").load("teaching.html");
+        });
+    </script>
+</body>
+
+</html>
